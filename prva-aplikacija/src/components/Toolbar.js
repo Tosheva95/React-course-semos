@@ -14,12 +14,20 @@ let imgStyle = { maxWidth: '5rem', paddingTop: '3px' };
 
 // props is an object
 const Toolbar = (props) => {
-  const {menuItems} = props
+
+  // const {menuItems} = props
   // moze i vaka 
   // const menuItems = props.menuItems
-
+  
   // STATE HOOK 
   const [counter, setCounter] = useState(0)
+
+  //DOMASNA !!!!!
+  if (!props.warn) {
+    alert('Can not load the page');
+  }
+  
+  
   // const [user, setUser] = useState('Ivana')
 
   const decrement = () => {
@@ -31,9 +39,9 @@ const Toolbar = (props) => {
     setCounter(newState)
   }
 
-  useEffect(() => {
-    alert('The menu items are empty!')
-  }, [menuItems])
+  // useEffect(() => {
+  //   alert('The menu items are empty!')
+  // }, [menuItems])
 
   // component willUnmount
 

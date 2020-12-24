@@ -9,7 +9,10 @@ import FunCalc from './components/FunCalc'
 import FunClock from './components/FunClock'
 
 const items = [
- 
+  // 'Home',
+  // 'Books',
+  // 'Authors',
+  // 'Favourites'
 ]
 
 class App extends React.Component {
@@ -24,7 +27,7 @@ class App extends React.Component {
         <Calc /> */}
         {/* <Clock /> */}
         <FunCalc />
-        <Toolbar menuItems = {items}/>
+        <Toolbar menuItems={items} />
         <FunClock />
       </div>
     )
