@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: lightsteelblue;
+}
+
+.toolbar-item {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.toolbar-item:hover {
+  background-color: paleturquoise;
+}
