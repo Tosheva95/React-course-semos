@@ -4,19 +4,6 @@
   cursor: pointer;
 }
 
-
-.clock {
-  color: red;
-  font-size: 40px;
-  background-color: rgb(235, 235, 34);
-  text-align: center;
-}
-
-.heading {
-  text-align: center;
-}
-
-
 .App {
   text-align: center;
 }

@@ -17,6 +17,28 @@ class Button extends React.Component {
     this.state = this.initialState
   }
 
+  // componentWillMount = () => {
+
+  // } 
+  // // se izvrsuva pred renderot 
+  // // ne povikuva render metod i ne se koristi veke, se se stava vo konstruktor 
+
+  // componentDidMount = () => {
+  //   this.props
+  //   this.state
+  //   this.setState({})
+  // }
+  // // se izvrsuva posle renderot 
+
+  // componentDidUpdate = (prevProps, prevState) => {
+  //   // ako se smenile props ili state pred da se povika render 
+  //   prevState.name === this.state.name
+  // }
+
+  // componentWillUnmount = () => {
+  
+  //}
+
 
   alertMe = () => {
     alert(`${this.props.greeting} ${this.state.name}`)

@@ -2,21 +2,21 @@ import React from 'react'
 import './App.css'
 // import Button from './Button.js'
 // import Calc from './Calc'
-// // import Counter from './Counter'
+// import Counter from './Counter'
 // import Clock from './Clock'
 import Toolbar from './components/Toolbar.js'
-import FunCalc from './components/FunCalc'
-import FunClock from './components/FunClock'
+import Users from './components/Users.js'
+// import FunCalc from './components/FunCalc'
+// import FunClock from './components/FunClock'
 
 const items = [
-  // 'Home',
-  // 'Books',
-  // 'Authors',
-  // 'Favourites'
+  'Home',
+  'Books',
+  'Authors',
+  'Favourites'
 ]
 
 class App extends React.Component {
-
 
   render = () => {
     return (
@@ -26,9 +26,11 @@ class App extends React.Component {
         <Counter />
         <Calc /> */}
         {/* <Clock /> */}
-        <FunCalc />
+        {/* <FunCalc /> */}
+        {/* <FunClock /> */}
         <Toolbar menuItems={items} />
-        <FunClock />
+        <br />
+        <Users />
       </div>
     )
   }
