@@ -5,7 +5,8 @@ import './App.css'
 // import Counter from './Counter'
 // import Clock from './Clock'
 import Toolbar from './components/Toolbar.js'
-import Users from './components/Users.js'
+// import Users from './components/Users.js'
+import Posts from './components/Posts.js'
 // import FunCalc from './components/FunCalc'
 // import FunClock from './components/FunClock'
 
@@ -30,7 +31,8 @@ class App extends React.Component {
         {/* <FunClock /> */}
         <Toolbar menuItems={items} />
         <br />
-        <Users />
+        {/* <Users /> */}
+        <Posts />
       </div>
     )
   }

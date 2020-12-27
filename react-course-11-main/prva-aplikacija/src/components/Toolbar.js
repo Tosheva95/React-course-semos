@@ -24,7 +24,7 @@ const Toolbar = (props) => {
   // const menuItems = props.menuItems
   
   // STATE HOOK 
-  const [counter, setCounter] = useState(0)
+  // const [counter, setCounter] = useState(0)
 
   //DOMASNA !!!!!
   // if (menuItems.lenght < 1) {
@@ -34,14 +34,14 @@ const Toolbar = (props) => {
   
   // const [user, setUser] = useState('Ivana')
 
-  const decrement = () => {
-    const newState = counter - 1
-    setCounter(newState)
-  }
-  const increment = () => {
-    const newState = counter + 1
-    setCounter(newState)
-  }
+  // const decrement = () => {
+  //   const newState = counter - 1
+  //   setCounter(newState)
+  // }
+  // const increment = () => {
+  //   const newState = counter + 1
+  //   setCounter(newState)
+  // }
 
   // useEffect(() => {
   //   alert('The menu items are empty!')
@@ -60,7 +60,7 @@ const Toolbar = (props) => {
     // alert (itemClicked)
     if(itemClicked) {
 
-      renderContent ('Welcome to my page:' + itemClicked)
+      renderContent ('Welcome to my page: ' + itemClicked)
     }
     }, [itemClicked])
 
@@ -72,9 +72,9 @@ const Toolbar = (props) => {
       <span>{counter}</span>
       <button onClick={increment}>+</button> */}
 
-      <Button variant='secondary' onClick={decrement}>-</Button>
+      {/* <Button variant='secondary' onClick={decrement}>-</Button>
       <span>{counter}</span>
-      <Button variant='secondary' onClick={increment}>+</Button>
+      <Button variant='secondary' onClick={increment}>+</Button> */}
 
       <ul className='toolbar-list'>
         <li>
